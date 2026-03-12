@@ -7,7 +7,7 @@
 
         default_layer {
             bindings = <
-                &out OUT_BLE
+                &kp A
             >;
         };
     };
