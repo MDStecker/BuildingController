@@ -8,6 +8,7 @@ manifest:
       remote: github
       revision: main
       import: app/west.yml
+      path: config
 
     - name: zmk-analog-input-driver
       remote: github
