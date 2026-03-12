@@ -33,7 +33,7 @@
         sampling-hz = <100>;
 
         x-ch {
-            io-channels = <&adc 0>;
+            io-channels = <&adc 0>;   /* D19 / P0.02 */
             mv-mid = <1630>;
             mv-min-max = <1600>;
             mv-deadzone = <10>;
@@ -45,7 +45,7 @@
         };
 
         y-ch {
-            io-channels = <&adc 5>;
+            io-channels = <&adc 5>;   /* D20 / P0.29 */
             mv-mid = <1630>;
             mv-min-max = <1600>;
             mv-deadzone = <10>;
@@ -55,6 +55,11 @@
             evt-type = <INPUT_EV_REL>;
             input-code = <INPUT_REL_Y>;
         };
+    };
+
+    anin0_listener: anin0_listener {
+        compatible = "zmk,input-listener";
+        device = <&anin0>;
     };
 };
 
