@@ -1,5 +1,2 @@
 / {
-    chosen {
-        zmk,keyboard = &kscan0;
-    };
 };
