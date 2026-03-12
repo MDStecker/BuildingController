@@ -33,7 +33,7 @@
     sampling-hz = <40>;
 
     x-ch {
-        io-channels = <&adc 2>;   /* D19 / P0.02 */
+        io-channels = <&adc 2>;   /* D19 / P0.02 .*/
         mv-mid = <2400>;
         mv-min-max = <1600>;
         mv-deadzone = <400>;
