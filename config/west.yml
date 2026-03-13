@@ -19,6 +19,5 @@ manifest:
       remote: MDStecker
       revision: main
 
-
   self:
     path: config
