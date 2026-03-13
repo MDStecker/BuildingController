@@ -3,4 +3,5 @@ if SHIELD_MY_CONTROLLER
 config ZMK_KEYBOARD_NAME
     default "MyCtrl"
 
+CONFIG_BT_DEVICE_NAME="My MF Controller"
 endif
