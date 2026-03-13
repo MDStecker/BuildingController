@@ -35,8 +35,8 @@
        x-ch {
     io-channels = <&adc 0>;
     mv-mid = <2000>;
-    mv-min-max = <250000>;
-    mv-deadzone = <250>;
+    mv-min-max = <1950>;
+    mv-deadzone = <350>;
     scale-multiplier = <1>;
     scale-divisor = <75>;
     evt-type = <INPUT_EV_REL>;
