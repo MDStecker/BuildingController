@@ -36,7 +36,7 @@
     io-channels = <&adc 0>;
     mv-mid = <1965>;
     mv-min-max = <700>;
-    mv-deadzone = <1000>;
+    mv-deadzone = <1500>;
     scale-multiplier = <1>;
     scale-divisor = <75>;
     evt-type = <INPUT_EV_REL>;
