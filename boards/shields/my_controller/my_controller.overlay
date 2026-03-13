@@ -36,9 +36,9 @@
     io-channels = <&adc 0>;
     mv-mid = <1965>;
     mv-min-max = <700>;
-    mv-deadzone = <1500>;
+    mv-deadzone = <1475>;
     scale-multiplier = <1>;
-    scale-divisor = <1>;
+    scale-divisor = <100>;
     evt-type = <INPUT_EV_REL>;
     input-code = <INPUT_REL_X>;
 };
