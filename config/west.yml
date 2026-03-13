@@ -3,10 +3,12 @@ manifest:
     revision: v0.3
 
   remotes:
-    - name: MDStecker
-      url-base: https://github.com/MDStecker
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: MDStecker
+      url-base: https://github.com/MDStecker
 
   projects:
     - name: zmk
@@ -16,7 +18,6 @@ manifest:
     - name: zmk-analog-input-driver
       remote: MDStecker
       revision: main
-
 
   self:
     path: config
