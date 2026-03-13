@@ -47,7 +47,7 @@ y-ch {
         io-channels = <&adc 1>;
         mv-mid = <1940>;
         mv-min-max = <700>;
-        mv-deadzone = <208>;
+        mv-deadzone = <230>;
         scale-multiplier = <1>;
         scale-divisor = <140>;
         evt-type = <INPUT_EV_REL>;
