@@ -34,7 +34,7 @@
 
        x-ch {
     io-channels = <&adc 0>;
-    mv-mid = <1925>;
+    mv-mid = <1915>;
     mv-min-max = <700>;
     mv-deadzone = <400>;
     scale-multiplier = <1>;
